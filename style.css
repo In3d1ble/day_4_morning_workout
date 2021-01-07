@@ -1,0 +1,62 @@
+nav a {
+    color: crimson;
+    text-decoration: none;
+ }
+
+
+.about {
+background-color: #eaeaea;
+}
+
+.users span{
+font-weight: 700;
+}
+
+.users span:nth-of-type(2) {
+color: crimson;
+}
+
+.creators .link {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.creators .link.font {
+    font-family: 'PT Serif' , serif;
+}
+
+.cta h2 {
+color: crimson;
+font-family: 'PT Serif', serif;
+}
+
+.cta ul li:nth-child(odd) { 
+    text-decoration: underline;
+}
+ 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: crimson;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+  }
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1)
+    transform-origin: bottom left;
+}
+
+ font-family: 'Lato', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
